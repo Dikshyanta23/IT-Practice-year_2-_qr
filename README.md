@@ -1,4 +1,4 @@
-# IT-Practice-year_2
+# IT-Practice-year_2 (qr and qrless)
 Entails prototype as described in the Project Initiation Document(PID)
 
 #### There are two versions of prototypes within the same directory. This is done in order to make the hosting of the webpages easier. The links to both are given below :
@@ -18,6 +18,7 @@ All the files in the directory are described below :
  5. **tagcloud.json** contains the json files used by the prototype to link the keywords to different attributes. For example, color of the keyword, link to the relevant FAQ, size, etc.
  6. **wordcloud2.js** contains the javascript library used by the prototype to generate the wordcloud. It was designed by *timdream.org* and can be acessed using this link(*https://wordcloud2-js.timdream.org/#love*)
  7. The folder **qrless** contains another version of the same prototype. However, instead of a popup with a qr code, clicking the keyword in this version will directly take the user to the FAQs page.
+ 8. **prototype.pptx** is a power-point file that contains a few slides showing how to use the prototype (qr and qrless).
  
  
  The team would like to thank the project supervisor for helping us to deliver this prototype. Also we are very grateful to timdream.org for designing this powerful javascript library.
