@@ -2,9 +2,10 @@
 Entails prototype as described in the Project Initiation Document(PID)
 
 **There are two versions of prototypes within the same directory. This is done in order to make the hosting of the webpages easier. The links to both are given below : **
-**Link to the prototype with qr code popup:** https://dikshyanta23.github.io/
-**Link to the prototype without qr code popup:** https://dikshyanta23.github.io/qrless/
 
+**Link to the prototype with qr code popup:** https://dikshyanta23.github.io/
+
+**Link to the prototype without qr code popup:** https://dikshyanta23.github.io/qrless/
 
 ### The prototype will contain a webpage (index.html) with keywords of different colors and sizes. Each word is clickable and upon clicking the word, a popup with a qr code is presented. The FAQ's corresponding to that keyword can be acessed by scanning this qr code on a mobile phone.
 
