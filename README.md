@@ -1,7 +1,7 @@
 # IT-Practice-year_2
 Entails prototype as described in the Project Initiation Document(PID)
 
-### There are two versions of prototypes within the same directory. This is done in order to make the hosting of the webpages easier. The links to both are given below :
+#### There are two versions of prototypes within the same directory. This is done in order to make the hosting of the webpages easier. The links to both are given below :
 
 **Link to the prototype with qr code popup:** https://dikshyanta23.github.io/
 
