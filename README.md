@@ -1,7 +1,7 @@
 # IT-Practice-year_2-_qr
 Entails prototype as described in the Project Initiation Document(PID)
 
-## The prototype will contain a webpage with keywords of different colors and sizes. This webpage is called index.html and is the main page of the prototype. Each word is clickable and upon clicking the word, a popup with a qr code is presented. The FAQ's corresponding to that keyword can be acessed by scanning this qr code on a mobile phone.
+### The prototype will contain a webpage with keywords of different colors and sizes. This webpage is called index.html and is the main page of the prototype. Each word is clickable and upon clicking the word, a popup with a qr code is presented. The FAQ's corresponding to that keyword can be acessed by scanning this qr code on a mobile phone.
 
 All the files in the directory are described below :
 
