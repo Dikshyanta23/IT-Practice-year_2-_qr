@@ -243,5 +243,19 @@
     "colour": "#9467bd",
     "url": "https://www.uwe.ac.uk/events/bristol-distinguished-address-series/frequently-asked-questions",
     "qrCode": "distinguished_speakers.png"
+  },
+  "eduroam": {
+    "topic": 3,
+    "weight": "6.718968132412424",
+    "colour": "#9467bd",
+    "url": "https://www.uwe.ac.uk/study/it-services/wifi-and-remote-access#ae520cfbb-7a1c-4331-b5d2-e4fbf3ca01c8",
+    "qrCode": "eduroam.png"
+  },
+  "appsannywhere": {
+    "topic": 4,
+    "weight": "6.718968132412424",
+    "colour": "#ff7f0e",
+    "url": "https://www.uwe.ac.uk/study/it-services/software",
+    "qrCode": "appsanywhere.png"
   }
 }
