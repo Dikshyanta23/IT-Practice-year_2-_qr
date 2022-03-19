@@ -64,10 +64,19 @@
         </div>
       </div>
       <div class="main_body">
-        <p>
-          Clicking on any one of the keywords listed below will load the FAQ's
-          corresponding to the keyword.
-        </p>
+        <div id="text_and_btn">
+          <p>
+            Clicking on any one of the keywords listed below will load the FAQ's
+            corresponding to the keyword.
+          </p>
+          <button id="myButton">Render a simple list</button>
+          <script>
+            document.getElementById("myButton").onclick = function () {
+              location.href = "simpler.html";
+            };
+          </script>
+        </div>
+
         <br />
         <div id="my_div" style="width: 100%; height: 500px">
           <canvas class="canvas" id="my_canvas"></canvas>

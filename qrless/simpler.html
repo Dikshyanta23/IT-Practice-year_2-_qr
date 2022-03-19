@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Customer First</title>
+    <meta http-equiv="refresh" content="30" />
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      var tagcloud = [
+        {
+          title: "permit",
+          topic: 0,
+          weight: "5.637025312915132",
+          colour: "#1f77b4",
+          url: "https://www.uwe.ac.uk/life/campus-and-facilities/car-parking/frequently-asked-questions",
+          qrCode: "car-park.png",
+        },
+        {
+          title: "car park",
+          topic: 0,
+          weight: "5.446673739141094",
+          colour: "#ff7f0e",
+          url: "https://www.uwe.ac.uk/life/campus-and-facilities/car-parking/frequently-asked-questions",
+          qrCode: "car-park.png",
+        },
+        {
+          title: "car hire",
+          topic: 0,
+          weight: "5.446419437262014",
+          colour: "#1f77b4",
+          url: "https://www.uwe.ac.uk/life/campus-and-facilities/car-parking/frequently-asked-questions",
+          qrCode: "car-park.png",
+        },
+        {
+          title: "car share",
+          topic: 1,
+          weight: "9.706442100912557",
+          colour: "#ff7f0e",
+          url: "https://www.uwe.ac.uk/life/campus-and-facilities/car-parking/frequently-asked-questions",
+          qrCode: "car-park.png",
+        },
+        {
+          title: "event capture",
+          topic: 1,
+          weight: "8.538168879553979",
+          colour: "#ff7f0e",
+          url: "https://info.uwe.ac.uk/online/blackboard/students/guides/capture-faqs.asp",
+          qrCode: "panopto.png",
+        },
+        {
+          title: "lecure recording",
+          topic: 1,
+          weight: "6.805940261098947",
+          colour: "#2ca02c",
+          url: "https://info.uwe.ac.uk/online/blackboard/students/guides/capture-faqs.asp",
+          qrCode: "panopto.png",
+        },
+        {
+          title: "panopto",
+          topic: 2,
+          weight: "6.461739396915918",
+          colour: "#2ca02c",
+          url: "https://info.uwe.ac.uk/online/blackboard/students/guides/capture-faqs.asp",
+          qrCode: "panopto.png",
+        },
+        {
+          title: "exams",
+          topic: 2,
+          weight: "6.151488691036102",
+          colour: "#2ca02c",
+          url: "https://www2.uwe.ac.uk/services/Marketing/students/Student%20advice/FAQ_for_Sitting_Exams_Overseas.pdf",
+          qrCode: "student_support.png",
+        },
+        {
+          title: "overseas exams",
+          topic: 2,
+          weight: "5.93576149141268",
+          colour: "#2ca02c",
+          url: "https://www2.uwe.ac.uk/services/Marketing/students/Student%20advice/FAQ_for_Sitting_Exams_Overseas.pdf",
+          qrCode: "exam_overseas.png",
+        },
+        {
+          title: "exam results",
+          topic: 3,
+          weight: "9.313434312957591",
+          colour: "#d62728",
+          url: "https://www2.uwe.ac.uk/services/Marketing/students/Student%20advice/FAQ_for_Sitting_Exams_Overseas.pdf",
+          "qr=code": "student_support.png",
+        },
+        {
+          title: "exam invoice",
+          topic: 3,
+          weight: "8.358561419667987",
+          colour: "#d62728",
+          url: "https://www2.uwe.ac.uk/services/Marketing/students/Student%20advice/FAQ_for_Sitting_Exams_Overseas.pdf",
+          qrCode: "student_support.png",
+        },
+        {
+          title: "assignment extension",
+          topic: 3,
+          weight: "6.901138654793844",
+          colour: "#d62728",
+          url: "https://info.uwe.ac.uk/online/blackboard/staff/guides/extension-assignments/faqs.asp",
+          qrCode: "extension.png",
+        },
+        {
+          title: "extension period",
+          topic: 4,
+          weight: "7.852110666451864",
+          colour: "#9467bd",
+          url: "https://info.uwe.ac.uk/online/blackboard/staff/guides/extension-assignments/faqs.asp",
+          qrCode: "extension.png",
+        },
+        {
+          title: "ethical approval",
+          topic: 4,
+          weight: "6.963937235058514",
+          colour: "#9467bd",
+          url: "https://www.uwe.ac.uk/research/policies-and-standards/research-ethics/faqs",
+          qrCode: "research_ethics.png",
+        },
+        {
+          title: "informed consent",
+          topic: 4,
+          weight: "6.718968132412424",
+          colour: "#ff7f0e",
+          url: "https://www.uwe.ac.uk/research/policies-and-standards/research-ethics/faqs",
+          qrCode: "research_ethics.png",
+        },
+        {
+          title: "participation information sheet",
+          topic: 4,
+          weight: "6.568037461780886",
+          colour: "#9467bd",
+          url: "https://www.uwe.ac.uk/research/policies-and-standards/research-ethics/faqs",
+          qrCode: "research_ethics.png",
+        },
+        {
+          title: "research ethics",
+          topic: 4,
+          weight: "6.718968132412424",
+          colour: "2ca02c",
+          url: "https://www.uwe.ac.uk/research/policies-and-standards/research-ethics/faqs",
+          qrCode: "research_ethics.png",
+        },
+        {
+          title: "research sponsor",
+          topic: 4,
+          weight: "6.568037461780886",
+          colour: "#1f77b4",
+          url: "https://www.uwe.ac.uk/research/policies-and-standards/research-ethics/faqs",
+          qrCode: "research_ethics.png",
+        },
+        {
+          title: "accommodation",
+          topic: 4,
+          weight: "6.568037461780886",
+          colour: "#1f77b4",
+          url: "https://www.thestudentsunion.co.uk/advice-centre/accommodation/faqs/",
+          qrCode: "student_union.png",
+        },
+        {
+          title: "tenancy agreement",
+          topic: 4,
+          weight: "6.718968132412424",
+          colour: "#d62728",
+          url: "https://www.thestudentsunion.co.uk/advice-centre/accommodation/faqs/",
+          qrCode: "student_union.png",
+        },
+        {
+          title: "self-isolating",
+          topic: 4,
+          weight: "6.568037461780886",
+          colour: "#9467bd",
+          url: "https://www.thestudentsunion.co.uk/advice-centre/accommodation/faqs/",
+          qrCode: "student_union.png",
+        },
+        {
+          title: "rent payment",
+          topic: 4,
+          weight: "6.568037461780886",
+          colour: "#9467bd",
+          url: "https://www.thestudentsunion.co.uk/advice-centre/accommodation/faqs/",
+          qrCode: "student_union.png",
+        },
+        {
+          title: "blackboard",
+          topic: 4,
+          weight: "6.718968132412424",
+          colour: "#2ca02c",
+          url: "https://info.uwe.ac.uk/myuwe/guidance/faq/default.asp",
+          qrCode: "myUWE.png",
+        },
+        {
+          title: "registration",
+          topic: 4,
+          weight: "6.568037461780886",
+          colour: "#d62728",
+          url: "https://info.uwe.ac.uk/myuwe/guidance/faq/default.asp",
+          qrCode: "myUWE.png",
+        },
+        {
+          title: "personal details",
+          topic: 4,
+          weight: "6.568037461780886",
+          colour: " 2ca02c",
+          url: "https://info.uwe.ac.uk/myuwe/guidance/faq/default.asp",
+          qrCode: "myUWE.png",
+        },
+        {
+          title: "marks and results",
+          topic: 4,
+          weight: "6.718968132412424",
+          colour: "#9467bd",
+          url: "https://info.uwe.ac.uk/myuwe/guidance/faq/default.asp",
+          qrCode: "myUWE.png",
+        },
+        {
+          title: "timetable",
+          topic: 4,
+          weight: "6.568037461780886",
+          colour: "#1f77b4",
+          url: "https://info.uwe.ac.uk/myuwe/guidance/faq/default.asp",
+          qrCode: "guidance.png",
+        },
+        {
+          title: "logging in and out",
+          topic: 4,
+          weight: "6.568037461780886",
+          colour: "#9467bd",
+          url: "https://info.uwe.ac.uk/myuwe/guidance/faq/default.asp",
+          qrCode: "guidance.png",
+        },
+        {
+          title: "visitor carpark",
+          topic: 4,
+          weight: "6.718968132412424",
+          colour: "#1f77b4",
+          url: "https://www.uwe.ac.uk/life/campus-and-facilities/car-parking/frequently-asked-questions#a66289696-8e77-437c-8154-abc838ebdc89",
+          qrCode: "car-park.png",
+        },
+        {
+          title: "parking charge notice",
+          topic: 4,
+          weight: "6.568037461780886",
+          colour: "#9467bd",
+          url: "https://www.uwe.ac.uk/life/campus-and-facilities/car-parking/frequently-asked-questions#a66289696-8e77-437c-8154-abc838ebdc89",
+          qrCode: "car-park.png",
+        },
+        {
+          title: "course access",
+          topic: 4,
+          weight: "6.568037461780886",
+          colour: "2ca02c",
+          url: "https://info.uwe.ac.uk/online/blackboard/students/faqs.asp",
+          qrCode: "student_support.png",
+        },
+        {
+          title: "online assessment",
+          topic: 2,
+          weight: "6.718968132412424",
+          colour: "#9467bd",
+          url: "https://info.uwe.ac.uk/online/blackboard/students/faqs.asp",
+          qrCode: "student_support.png",
+        },
+        {
+          title: "uwe welcome",
+          topic: 4,
+          weight: "6.568037461780886",
+          colour: "#ff7f0e",
+          url: "https://www.uwe.ac.uk/about/website/welcome-login-faqs",
+          qrCode: "welcome_login.png",
+        },
+        {
+          title: "general guidance",
+          topic: 4,
+          weight: "6.568037461780886",
+          colour: "#9467bd",
+          url: "https://info.uwe.ac.uk/myUWE/guidance/",
+          qrCode: "guidance.png",
+        },
+        {
+          title: "Bristol Distinguished Address Series events",
+          topic: 4,
+          weight: "6.718968132412424",
+          colour: "#9467bd",
+          url: "https://www.uwe.ac.uk/events/bristol-distinguished-address-series/frequently-asked-questions",
+          qrCode: "distinguished_speakers.png",
+        },
+        {
+          title: "eduroam",
+          topic: 3,
+          weight: "6.718968132412424",
+          colour: "#9467bd",
+          url: "https://www.uwe.ac.uk/study/it-services/wifi-and-remote-access#ae520cfbb-7a1c-4331-b5d2-e4fbf3ca01c8",
+          qrCode: "eduroam.png",
+        },
+        {
+          title: "appsanywhere",
+          topic: 4,
+          weight: "6.718968132412424",
+          colour: "#ff7f0e",
+          url: "https://www.uwe.ac.uk/study/it-services/software",
+          qrCode: "appsanywhere.png",
+        },
+      ];
+    </script>
+  </head>
+  <body>
+    <div class="page-wrapper"></div>
+    <div class="modal-wrapper" id="modal-wrapper">
+      <div class="modal">
+        <div class="head">
+          <a class="btn-close trigger" href="javascript:;"></a>
+        </div>
+        <div class="qrcontent"></div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="nav">
+        <div class="logo">
+          <img src="images/uwe.png" />
+        </div>
+        <div class="title">
+          <h1>Customer First Prototype</h1>
+        </div>
+      </div>
+      <div class="main_body">
+        <div class="text_and_btn">
+          <p id="opener">
+            Clicking on any one of the keywords listed below will load the FAQ's
+            corresponding to the keyword.
+          </p>
+          <button id="myBtn">Back to wordcloud</button>
+          <script>
+            document.getElementById("myBtn").onclick = function () {
+              location.href = "index.html";
+            };
+          </script>
+        </div>
+        <ol>
+          <script>
+            for (i = 0; i < tagcloud.length; i++) {
+              document.write(
+                '<li><a href = "' +
+                  tagcloud[i].url +
+                  '">' +
+                  tagcloud[i].title +
+                  "</a></li>",
+              );
+            }
+          </script>
+        </ol>
+        <br />
+      </div>
+    </div>
+  </body>
+</html>

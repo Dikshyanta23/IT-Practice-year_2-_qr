@@ -135,3 +135,7 @@ title {
 .content {
   padding: 5%;
 }
+li {
+  font-family: sans-serif;
+  font-size: 110%;
+}
